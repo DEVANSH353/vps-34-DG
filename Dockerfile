@@ -6,7 +6,7 @@ RUN pip install --no-cache-dir jupyterlab
 
 ENV PORT-8080
 
-EXPOSE 6080
+EXPOSE 4200
 
 # shell form to expand $PORT
 CHD jupyter lab --ip=0.0.0.0 --port=${PORT} --no-browser --allow-root
